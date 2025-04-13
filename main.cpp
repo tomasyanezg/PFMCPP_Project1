@@ -52,97 +52,98 @@ arm.rotateCounterClockwise();           // 4) demonstrates camelCase
 
 
 //  1)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:        door                   // 1)    
+//  action 1:    the door opens         // 2)
+door.open();                            // 3)
+//  action 2:    the door closes        // 2)            
+door.close();                           // 3)
+//  action 3:    the door locks         // 2)    
+door.lock();                            // 3)    
 //  2)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:        oven                   // 1)
+//  action 1:    the oven heats         // 2)
+oven.heat();                            // 3)
+//  action 2:    the oven opens         // 2)    
+oven.open();                            // 3)
+//  action 3:    the oven cooks         // 2)
+oven.cook();
 //  3)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:        chef                        // 1)
+//  action 1:    chef cooks Pizza            // 2)
+chef.cookingPizza();                         // 3)
+//  action 2:    chef cooks Pasta            // 2)
+chef.cookingPasta();                         // 3)
+//  action 3:    chef prepares ingredients   // 2)
+chef.prepareIngredients();                   // 3)    
 //  4)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:        doctor
+//  action 1:    doctor examines patient    // 2)    
+doctor.examinePatient();                    // 3)
+//  action 2:    doctor prescribes medicine // 2)
+doctor.prescribeMedicine();                 // 3)
+//  action 3:    doctor operates on patient // 2)
+doctor.operateOnPatient();                  // 3)
 //  5)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:        bike                     // 1)
+//  action 1:    bike moves forward       // 2)
+bike.moveForward();                       // 3)
+//  action 2:    bike moves backward      // 2)
+bike.moveBackward();                      // 3)
+//  action 3:    bike turns left          // 2)
+bike.turnLeft();                          // 3)
 //  6)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:        movie                   // 1)
+//  action 1:    movie plays             // 2)    
+movie.play();                            // 3)
+//  action 2:    movie pauses            // 2)
+movie.pause();                           // 3)    
+//  action 3:    movie stops             // 2)
+movie.stop();                            // 3)    
 //  7)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:        guitar                  // 1)
+//  action 1:    guitar plays a song     // 2)
+guitar.playSong();                       // 3)    
+//  action 2:    guitar tunes a string   // 2)
+guitar.tuneString();                     // 3)    
+//  action 3:    guitar changes a string // 2)
+guitar.changeString();                   // 3)
 //  8)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:        person                   // 1)
+//  action 1:    friend talks             // 2)
+person.talk();                            // 3)
+//  action 2:    friend smiles            // 2)
+person.smiles();                          // 3)
+//  action 3:    friend cries             // 2)
+person.cry();                             // 3)
 //  9)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:        school                   // 1)
+//  action 1:    school opens             // 2)
+school.open();                            // 3)
+//  action 2:    school closes            // 2)
+school.close();                           // 3)
+//  action 3:    school teaches           // 2)    
+school.teach();                           // 3)
 //  10)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
-
+//  Noun:        sun                      // 1)
+//  action 1:    sun shines               // 2)    
+sun.shine();                              // 3)
+//  action 2:    sun warms                // 2)
+sun.warm();                               // 3)
+//  action 3:    sun sets                 // 2)        
+sun.set();                                // 3)
 
 #endif
 
 /*
  MAKE SURE YOU ARE NOT ON THE MASTER BRANCH
 
- Commit your changes by clicking on the Source Control panel on the left, entering a message, and click [Commit and push].
- 
- If you didn't already: 
+ Commit your changes by clicking on the Source Control panel on the left,
+ entering a message, and click [Commit and push].
+
+ If you didn't already:
     Make a pull request after you make your first commit
-    pin the pull request link and this repl.it link to our DM thread in a single message.
+    pin the pull request link and this repl.it link to our DM thread in a single
+ message.
 
  send me a DM to review your pull request when the project is ready for review.
 
@@ -150,8 +151,7 @@ arm.rotateCounterClockwise();           // 4) demonstrates camelCase
  */
 
 #include <iostream>
-int main()
-{
-    std::cout << "good to go" << std::endl;
-    return 0;
+int main() {
+  std::cout << "good to go" << std::endl;
+  return 0;
 }
