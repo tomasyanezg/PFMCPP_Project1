@@ -52,85 +52,85 @@ arm.rotateCounterClockwise();           // 4) demonstrates camelCase
 
 
 //  1)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:       cat                     // 1)   
+//  action 1:   the cat purrs           // 2)
+cat.purr();                             // 3)
+//  action 2:   the cat jumps           // 2) 
+cat.jump();                             // 3)
+//  action 3:   the cat sleeps          // 2)
+cat.sleep();                            // 3)
 //  2)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:       snake                   // 1) 
+//  action 1:   the snake slithers      // 2) 
+snake.slither();                        // 3)
+//  action 2:   the snake hisses        // 2) 
+snake.hiss();                           // 3)
+//  action 3:   the snake bites         // 2)    
+snake.bite();                           // 3)
 //  3)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:       kid                     // 1)             
+//  action 1:   the kid laughs          // 2)
+kid.laugh();                            // 3)
+//  action 2:   the goes to school      // 2)
+kid.goToSchool();                       // 3)
+//  action 3:   the kid plays           // 2)
+kid.play();                             // 3)
 //  4)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:       motorbike               // 1)
+//  action 1:   the motorbike revs      // 2)    
+motorbike.rev();                        // 3)
+//  action 2:   the motorbike speeds up // 2) 
+motorbike.speedUp();                    // 3)
+//  action 3:   the motorbike slows down// 2)
+motorbike.slowDown();                   // 3)
 //  5)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:       printer                 // 1)
+//  action 1:   the printer prints      // 2)
+printer.print();                        // 3)
+//  action 2:   the printer scans       // 2)
+printer.scan();                         // 3)    
+//  action 3:   the printer faxes       // 2)
+printer.fax();                          // 3)
 //  6)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:       dove                    // 1)
+//  action 1:   the dove coos           // 2)
+dove.coo();                             // 3)
+//  action 2:   the dove flies          // 2)
+dove.fly();                             // 3)
+//  action 3:   the dove eats           // 2)
+dove.eat();                
 //  7)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:       ball                    // 1)     
+//  action 1:   the ball rolls          // 2)
+ball.roll();                            // 3)
+//  action 2:   the ball bounces        // 2)
+ball.bounce();                          // 3)    
+//  action 3:   the ball spins          // 2)
+ball.spin();                            // 3)
 //  8)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:       waitress                // 1)    
+//  action 1:   the waitress serves     // 2)
+waitress.serve();                       // 3)
+//  action 2:   the waitress cleans     // 2)
+waitress.clean();                       // 3)
+//  action 3:   the waitress takes orders // 2) 
+waitress.takeOrders();                   // 3)
 //  9)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:       midiInstrument                      // 1)    
+//  action 1:   midi instrument increase volume     // 2)
+midiInstrument.incVolume();                         // 3)
+//  action 2:   midi instrument increases octave    // 2) 
+midiInstrument.incOctave();                         // 3)
+//  action 3:   midi instrument sync clock on       // 2)
+midiInstrument.syncClock();                         // 3)
 //  10)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:       cashier                 // 1)
+//  action 1:   the cashier rings up    // 2)
+cashier.ringUp();                       // 3)
+//  action 2:   the cashier counts      // 2)
+cashier.count();                        // 3)
+//  action 3:   the cashier opens drawer // 2)
+cashier.openDrawer();                   // 3)
 
 
 #endif
